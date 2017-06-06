@@ -7,78 +7,84 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="flex-container">
         <img src="./resources/images/img-tea-cozy-logo.png" alt="logo"/>
-        <nav class="links">
-          <span>Mission</span>
-          <span>Featured Tea</span>
-          <span>Locations</span>
+        <nav class="flex-container">
+          <span><a href="#mission">Mission</a></span>
+          <span><a href="#featured-tea">Featured Tea</a></span>
+          <span><a href="#locations">Locations</a></span>
         </nav>
     </header>
-    <div class="mission-container">
-      <div class="image-content-large">
-        <h2>Our Mission</h2>
-        <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-      </div>
-    </div>
-    <div class="featured-tea">
-      <h2>Tea of the Month</h2>
-      <h4>What's Steeping at The Tea Cozy?</h4>
-      <div class="images-container">
-        <div class="image-one">
-          <img src="./resources/images/img-berryblitz.jpg" />
-          <h4>Fall Berry Blitz Tea</h4>
-        </div>
-        <div class="image-two">
-          <img src="./resources/images/img-spiced-rum.jpg" />
-          <h4>Spiced Rum Tea</h4>
-        </div>
-        <div class="image-three">
-          <img src="./resources/images/img-donut.jpg" />
-          <h4>Seasonal Donuts</h4>
-        </div>
-        <div class="image-four">
-          <img src="./resources/images/img-myrtle-ave.jpg" />
-          <h4>Myrtle Ave Tea</h4>
-        </div>
-        <div class="image-five">
-          <img src="./resources/images/img-bedford-bizarre.jpg" />
-          <h4>Bedford Bizarre Tea</h4>
+    <!-- Main Container, Everything Except Header and Footer -->
+    <section class="flex-container main">
+      <!-- Mission Section -->
+      <div id="mission" class="mission flex-container top-padding column">
+        <div class="our-mission flex-container top-padding column">
+          <h2 class="no-margin">Our Mission</h2>
+          <h4 class="no-margin">Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
         </div>
       </div>
-    </div>
-    <div class="locations-container">
-      <div class="image-content-medium">
+      <!-- Fetured Tea Section -->
+      <div id="featured-tea" class="featured-tea padding">
+        <h2>Tea of the Month</h2>
+        <h4>What's Steeping at The Tea Cozy?</h4>
+        <div class=" tea-images flex-container">
+          <div class="tea flex-container column">
+            <img src="./resources/images/img-berryblitz.jpg" alt="Berry Blitz"/>
+            <h4>Fall Berry Blitz Tea</h4>
+          </div>
+          <div class="tea flex-container column">
+            <img src="./resources/images/img-spiced-rum.jpg" alt="Spiced Rum"/>
+            <h4>Spiced Rum Tea</h4>
+          </div>
+          <div class="tea flex-container column">
+            <img src="./resources/images/img-donut.jpg" alt="Donut"/>
+            <h4>Seasonal Donuts</h4>
+          </div>
+          <div class="tea flex-container column">
+            <img src="./resources/images/img-myrtle-ave.jpg" alt="Myrtle Ave"/>
+            <h4>Myrtle Ave Tea</h4>
+          </div>
+          <div class="tea flex-container column">
+            <img src="./resources/images/img-bedford-bizarre.jpg" alt="Bedford Bizarre"/>
+            <h4>Bedford Bizarre Tea</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Locastions Section -->
+      <div id="locations" class="location-main flex-container top-padding column">
         <h2>Locations</h2>
-        <div class="locations">
-          <div class="downtown">
-            <h3>Downtown</h3>
+        <div class="locations flex-container">
+          <div class="location flex-container column">
+            <h3 class="no-margin">Downtown</h3>
             <p>384 West 4th St</p>
             <p>Suite 108</p>
             <p>Portland, Maine</p>
           </div>
-          <div class=east-bayside>
-            <h3>East Bayside</h3>
+          <div class="location flex-container column">
+            <h3 class="no-margin">East Bayside</h3>
             <p>3433 Phisherman's Avenue</p>
             <p>(Northwest Corner)</p>
             <p>Portland, Maine</p>
           </div>
-          <div class="oakdale">
-            <h3>Oakdale</h3>
+          <div class="location flex-container column">
+            <h3 class="no-margin">Oakdale</h3>
             <p>515 Crescent Avenue</p>
             <p>Second Floor</p>
             <p>Portland, Maine</p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="contact-info">
-      <h2>The Tea Cozy</h2>
-      <h5>contact@theteacozy.com</h5>
-      <h5>917-555-8904</h5>
-    </div>
-    <footer>
-      <div class="copyright">copyright The Tea Cozy 2017</div>
+      <!-- Contact Section -->
+      <div class="contact-info">
+        <h2>The Tea Cozy</h2>
+        <h5>contact@theteacozy.com</h5>
+        <h5>917-555-8904</h5>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="top-padding">
+      <h5>copyright The Tea Cozy 2017</h5>
     </footer>
   </body>
 </html>
