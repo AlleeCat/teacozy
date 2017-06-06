@@ -5,3 +5,30 @@
   background-color: black;
   opacity: 0.9;
  }
+
+ /*-- header --*/
+ header {
+   height: 69px;
+   width: 100%;
+   border-bottom: 1px solid seashell;
+   position: fixed;
+   display: inline-flex;
+ }
+ header img {
+   height: 50px;
+   padding-left: 10px;
+ }
+
+ /*-- mission --*/
+ .mission-container {
+   display: flex;
+   background-image: url("../images/img-mission-background.jpg");
+   padding: 0px 700px;
+   width: 1200px;
+ }
+
+/*-- sample code --*/
+ h2 {
+   margin: 0;
+   padding: 10px;
+ }
