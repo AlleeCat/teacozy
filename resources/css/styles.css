@@ -6,6 +6,16 @@
   opacity: 0.9;
  }
 
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.mission,
+.location-main {
+  width: 1200px;
+}
+
  /*-- header --*/
  header {
    height: 69px;
@@ -30,13 +40,18 @@ nav {
 
 a {
   text-decoration: underline;
+}
 
+/*-- main section --*/
+.flex-container main{
+  width: 970px;
+  margin: auto;
 }
 
  /*-- mission --*/
  .mission {
    display: flex;
    background-image: url("../images/img-mission-background.jpg");
-   padding: 0px 700px;
    width: 1200px;
+   height: 700px;
  }
