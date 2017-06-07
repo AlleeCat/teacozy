@@ -1,8 +1,6 @@
 * {
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
-  opacity: 0.9;
  }
 
 /*-- flexbox --*/
@@ -28,6 +26,8 @@ body {
   text-align: center;
   margin: 0;
   background-color: black;
+  font-size: 22px;
+  opacity: 0.9;
 }
 
 .no-margin {
@@ -45,8 +45,6 @@ footer h5 {
 .locations {
   opacity: 1;
 }
-
-
 
 .tea-image {
   width: 300px;
