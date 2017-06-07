@@ -2,7 +2,6 @@
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: black;
   opacity: 0.9;
  }
 
@@ -27,6 +26,8 @@ footer {
 /*-- margins, height, width --*/
 body {
   text-align: center;
+  margin: 0;
+  background-color: black;
 }
 
 .no-margin {
@@ -43,16 +44,13 @@ footer h5 {
 
 .locations {
   opacity: 1;
-  margin: 0 20px;
 }
 
-.tea-images {
-  margin: 10px;
-}
+
 
 .tea-image {
-  height: 200px;
   width: 300px;
+  margin: 10px;
 }
 
 .flex-container main{
@@ -77,6 +75,9 @@ footer h5 {
 .location {
   width: 300px;
   height: 300px;
+  background-color: black;
+  margin: 20px;
+  padding: 10px 0px;
 }
 
 .mission {
@@ -91,10 +92,6 @@ footer h5 {
   height: 200px;
 }
 
-.tea {
-  height: 200px;
-  width: 300px;
-}
 
  /*-- header --*/
  header {
@@ -103,10 +100,11 @@ footer h5 {
    border-bottom: 1px solid seashell;
    position: fixed;
    align-items: center;
-   z-index: 1;
+   z-index: 5;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
+   background-color: black;
  }
  header img {
    height: 50px;
@@ -114,13 +112,13 @@ footer h5 {
  }
 
 nav {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 a {
   text-decoration: underline;
+  margin: 0px 5px;
 }
 
  /*-- mission --*/
@@ -129,10 +127,13 @@ a {
    background-image: url("../images/img-mission-background.jpg");
    width: 1200px;
    height: 700px;
+   position: relative;
+   justify-content: center;
  }
 
 .our-mission {
   align-items: center;
+  background-color: black;
 }
 
 /*-- featured tea --*/
