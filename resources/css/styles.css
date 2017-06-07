@@ -6,6 +6,7 @@
   opacity: 0.9;
  }
 
+/*-- flexbox --*/
 .flex-container {
   display: flex;
 }
@@ -13,6 +14,16 @@
 .column {
   flex-direction: column;
 }
+
+section {
+  align-items: center;
+}
+
+section,
+footer {
+  position: relative;
+}
+
 /*-- margins, height, width --*/
 body {
   text-align: center;
@@ -37,6 +48,11 @@ footer h5 {
 
 .tea-images {
   margin: 10px;
+}
+
+.flex-container main{
+  width: 970px;
+  margin: auto;
 }
 
 .top-padding {
@@ -95,16 +111,11 @@ footer h5 {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 a {
   text-decoration: underline;
-}
-
-/*-- main section --*/
-.flex-container main{
-  width: 970px;
-  margin: auto;
 }
 
  /*-- mission --*/
@@ -121,14 +132,12 @@ a {
 
 /*-- featured tea --*/
 .tea-images {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 /*-- locations --*/
 .locations {
-  display: flex;
   justify-content: center;
 }
 
