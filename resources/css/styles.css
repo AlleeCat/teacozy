@@ -48,6 +48,9 @@ footer h5 {
 
 .tea-images {
   margin: 10px;
+}
+
+.tea-image {
   height: 200px;
   width: 300px;
 }
