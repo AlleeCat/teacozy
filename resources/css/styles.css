@@ -6,10 +6,20 @@
   opacity: 0.9;
  }
 
+.flex-container {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
 /*-- margins, height, width --*/
 body {
-  margin: 0;
   text-align: center;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 footer h5 {
@@ -27,6 +37,10 @@ footer h5 {
 
 .tea-images {
   margin: 10px;
+}
+
+.top-padding {
+  padding-top: 70px;
 }
 
 .mission,
