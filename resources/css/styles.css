@@ -6,14 +6,59 @@
   opacity: 0.9;
  }
 
+/*-- margins, height, width --*/
 body {
   margin: 0;
   text-align: center;
 }
 
+footer h5 {
+  margin-left: 20px;
+}
+
+.location-main h2 {
+  margin-bottom: 15px;
+}
+
+.locations {
+  opacity: 1;
+  margin: 0 20px;
+}
+
+.tea-images {
+  margin: 10px;
+}
+
 .mission,
-.location-main {
+.location-main,
+.locations {
   width: 1200px;
+}
+
+.featured-tea {
+  width: 1000px;
+}
+
+.location {
+  width: 300px;
+  height: 300px;
+}
+
+.mission {
+  height: 700px;
+}
+
+.location-main {
+  height: 500px;
+}
+
+.contact-info {
+  height: 200px;
+}
+
+.tea {
+  height: 200px;
+  width: 300px;
 }
 
  /*-- header --*/
@@ -55,3 +100,30 @@ a {
    width: 1200px;
    height: 700px;
  }
+
+.our-mission {
+  align-items: center;
+}
+
+/*-- featured tea --*/
+.tea-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*-- locations --*/
+.locations {
+  display: flex;
+  justify-content: center;
+}
+
+.location-main {
+  display: block;
+  background-image: url("../images/img-locations-background.jpg")
+}
+
+/*-- footer --*/
+footer h5 {
+  text-align: left;
+}
